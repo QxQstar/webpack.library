@@ -10,6 +10,8 @@ job1:
   script:
     - echo "I am job1"
     - echo "I am in test stage"
+  tags:
+    - kube-runner
 
 # 定义 job
 job2:
@@ -18,4 +20,6 @@ job2:
   script:
     - echo "I am job2"
     - echo "I am in build stage"
+  tags:
+    - kube-runner
 
