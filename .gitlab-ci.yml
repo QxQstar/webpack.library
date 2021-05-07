@@ -6,6 +6,7 @@ stages:
 
 # 定义 job
 job1:
+  image: 'registry.qunhequnhe.com/fe/node-yarn-zip-bash-git:10.19.0'
   stage: test
   script:
     - echo "I am job1"
@@ -13,9 +14,9 @@ job1:
 
 # 定义 job
 job2:
+  image: 'registry.qunhequnhe.com/fe/node-yarn-zip-bash-git:10.19.0'
   stage: build
   script:
     - echo "I am job2"
     - echo "I am in build stage"
 
-    
