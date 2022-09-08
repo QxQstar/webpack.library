@@ -1,1 +1,3 @@
-console.log('练习 ci/cd with gitlab')
+export default function add(a, b) {
+    console.log(a + b)
+}
